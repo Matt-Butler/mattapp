@@ -1,0 +1,11 @@
+{
+  "main.js": "/mattapp/static/js/main.cebb45f5.chunk.js",
+  "main.js.map": "/mattapp/static/js/main.cebb45f5.chunk.js.map",
+  "runtime~main.js": "/mattapp/static/js/runtime~main.ee5fcbc3.js",
+  "runtime~main.js.map": "/mattapp/static/js/runtime~main.ee5fcbc3.js.map",
+  "static/js/2.c8623930.chunk.js": "/mattapp/static/js/2.c8623930.chunk.js",
+  "static/js/2.c8623930.chunk.js.map": "/mattapp/static/js/2.c8623930.chunk.js.map",
+  "index.html": "/mattapp/index.html",
+  "precache-manifest.8fb7db5f2002dae4227fcc72df57f572.js": "/mattapp/precache-manifest.8fb7db5f2002dae4227fcc72df57f572.js",
+  "service-worker.js": "/mattapp/service-worker.js"
+}
