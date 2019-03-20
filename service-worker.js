@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/mattapp/precache-manifest.8fb7db5f2002dae4227fcc72df57f572.js"
+  "/mattapp/precache-manifest.ec75a63072fd13792d2e99a04a677297.js"
 );
 
 workbox.clientsClaim();
