@@ -1,45 +1,14 @@
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import { simpleAction } from '../actions/simpleAction';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Footer from './Footer';
+import AddTodo from './AddTodo';
+import VisibleTodoList from './VisibleTodoList';
 
-class App extends Component {
-  
-simpleAction = (event) => {
-    this.props.simpleAction();
-   }
+const App = () => (
+  <div>
+    <AddTodo />
+    <VisibleTodoList />
+    <Footer />
+  </div>
+);
 
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/components/App.js</code> and save to reload.
-          </p>
-          <button 
-            onClick={this.simpleAction}
-          >
-            Test redux action
-          </button>
-          <pre>
-            {
-              JSON.stringify(this.props)
-            }
-          </pre>
-        </header>
-      </div>
-    );
-  }
-}
-
-const mapStateToProps = state => ({
-  ...state
-})
-
-const mapDispatchToProps = dispatch => ({
-  simpleAction: () => dispatch(simpleAction())
-})
-
- export default connect(mapStateToProps, mapDispatchToProps)(App);
+export default App;
