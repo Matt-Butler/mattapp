@@ -5,10 +5,9 @@ const Link = ({ active, children, onClick }) => {
   if (active) {
     return <span>{children}</span>;
   }
-
   return (
     <a
-      href="#"
+      href="#placeholder"
       onClick={e => {
         e.preventDefault();
         onClick();
