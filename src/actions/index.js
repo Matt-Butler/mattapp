@@ -1,7 +1,8 @@
-let nextTodoId = 0;
+const uuidv4 = require('uuid/v4');
+
 export const addTodo = (text) => ({
   type: 'ADD_TODO',
-  id: (nextTodoId++).toString(),
+  id: uuidv4(),
   text,
 });
 
