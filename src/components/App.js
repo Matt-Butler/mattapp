@@ -6,9 +6,7 @@ import VisibleTodoList from './VisibleTodoList';
 const App = ({ match }) => (
   <div>
     <AddTodo />
-    <VisibleTodoList 
-      filter={match.params.filter || 'all'}
-    />
+    <VisibleTodoList />
     <Footer />
   </div>
 );
