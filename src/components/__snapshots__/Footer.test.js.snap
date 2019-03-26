@@ -4,22 +4,22 @@ exports[`renders without crashing 1`] = `
 <p>
   Show:
    
-  <Connect(Link)
-    filter="SHOW_ALL"
+  <FilterLink
+    filter="all"
   >
     All
-  </Connect(Link)>
+  </FilterLink>
   , 
-  <Connect(Link)
-    filter="SHOW_ACTIVE"
+  <FilterLink
+    filter="active"
   >
     Active
-  </Connect(Link)>
+  </FilterLink>
   , 
-  <Connect(Link)
-    filter="SHOW_COMPLETED"
+  <FilterLink
+    filter="completed"
   >
     Completed
-  </Connect(Link)>
+  </FilterLink>
 </p>
 `;

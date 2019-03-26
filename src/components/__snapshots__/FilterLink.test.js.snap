@@ -1,7 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders without crashing 1`] = `
-<ContextConsumer>
-  <Component />
-</ContextConsumer>
+<NavLink
+  activeStyle={
+    Object {
+      "color": "black",
+      "textDecoration": "none",
+    }
+  }
+  exact={true}
+  to="/undefined"
+/>
 `;
